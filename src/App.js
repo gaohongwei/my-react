@@ -1,12 +1,12 @@
 import React from 'react';
 
 import './App.css';
-import Home from './components/Home'
+import FunTable from './components/FunTable'
 //import Header from './components/Header'
 function App() {
   return (
     <div className="App">
-      <Home> We are inside Home </Home>
+      <FunTable> We are inside FunTable </FunTable>
 
     </div>
   );

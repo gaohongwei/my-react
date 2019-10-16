@@ -51,7 +51,9 @@ const Home = () => (
             <Field name="employed" component="input" type="checkbox" />
           </div>
 
-          <WDropdown label='My Checkboxes' options = {colors} />
+
+           <WDropdown label='My Checkboxes' options = {colors} />
+
           <WRadios label='My Checkboxes' radios = {checkboxes} />
           <WRadios label='My Radios' radios = {radios} />
           <div>
