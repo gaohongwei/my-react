@@ -9,6 +9,7 @@ import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 import './App.css';
 import FunTable from './components/FunTable'
 import ClsTable from './components/ClsTable'
+import Home     from './components/Home'
 
 const routing = (
   <Router>
@@ -16,6 +17,7 @@ const routing = (
       <Route path="/" exact={true} component={App} />
       <Route path="/function" exact={true} component={FunTable} />
       <Route path="/class" exact={true} component={ClsTable} />
+      <Route path="/home" exact={true} component={Home} />
     </div>
   </Router>
 )
