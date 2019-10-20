@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import React from 'react'
 import { Form, Field } from 'react-final-form'
-import {WRadios,WCheckboxes, WDropdown} from './tools/widgets'
+import {WRadios,WCheckboxes, WDropdown} from './forms/widgets'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms))

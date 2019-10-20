@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useState, Fragment } from 'react';
 import ReactTable from 'react-table'
 import 'react-table/react-table.css'
 import getData from '../data/DB'
@@ -80,9 +80,9 @@ export default class ClsTable extends React.Component{
 
   render(){
     return (
-      <div>
+      <Fragment>
         <div>
-          Component class Selected IDS:
+          Component class, Selected IDS:
           {this.state.selections.join(',')}
         </div>
         <ReactTable
@@ -90,7 +90,7 @@ export default class ClsTable extends React.Component{
           columns={this.columns}
         />
 
-      </div>
+      </Fragment>
 
       )
   }
