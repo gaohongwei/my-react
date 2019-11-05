@@ -10,6 +10,7 @@ import './App.css';
 import GitHubUser from './components/GitHubUser'
 import FunTable from './components/FunTable'
 import ClsTable from './components/ClsTable'
+import SearchCourse from './components/SearchCourse'
 import Home     from './components/Home'
 import CheckBoxTableApp     from './components/CheckBoxTableApp'
 import TodoList     from './components/TodoList'
@@ -18,13 +19,13 @@ import TodoList     from './components/TodoList'
 const routing = (
   <Router>
     <div>
-      <Route path="/" exact={true} component={TodoList} />
+      <Route path="/" exact={true} component={SearchCourse} />
       <Route path="/git" exact={true} component={GitHubUser} />
       <Route path="/function" exact={true} component={FunTable} />
       <Route path="/class" exact={true} component={ClsTable} />
       <Route path="/home" exact={true} component={Home} />
       <Route path="/checkbox" exact={true} component={CheckBoxTableApp} />
-
+      <Route path="/todos" exact={true} component={TodoList} />
     </div>
   </Router>
 )
