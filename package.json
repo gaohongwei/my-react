@@ -8,6 +8,7 @@
     "faker": "^4.1.0",
     "final-form": "^4.18.5",
     "react": "^16.10.2",
+    "react-bootstrap": "^1.0.0-beta.14",
     "react-dom": "^16.10.2",
     "react-final-form": "^6.3.0",
     "react-router-dom": "^5.1.2",
